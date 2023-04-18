@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.1)
-project(modlog VERSION 1.0 LANGUAGES C CXX)
+project(simd VERSION 1.0 LANGUAGES C CXX)
 include(CTest)
 
 # Ensures that we do an out of source build
