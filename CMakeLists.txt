@@ -45,8 +45,5 @@ file(GLOB umbraSrcFiles
   ${PROJECT_SOURCE_DIR}/src/**/*.cpp
 )
 
-# add_library(libModLog ${umbraSrcFiles})
-# set_target_properties(libModLog PROPERTIES LINKER_LANGUAGE CXX)
-
 enable_testing()
 add_subdirectory(${PROJECT_SOURCE_DIR}/tests)
